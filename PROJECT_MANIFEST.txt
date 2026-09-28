@@ -1,0 +1,25 @@
+HealthConnect Data Intelligence - Final Managed Package
+
+RUNNERS
+- run_healthconnect.ps1 : PowerShell one-command runner
+- run_healthconnect.cmd  : CMD one-command runner
+- run_project.sql        : VS Code MSSQL fallback
+
+SOURCE DATA
+- source_data/InboundFiles/*.csv
+
+SQL
+- sql/01_Database
+- sql/02_Source_To_Raw
+- sql/03_Raw_To_Cleansed
+- sql/04_Cleansed_To_Refined
+- sql/05_KPI_Reporting
+- sql/06_Master_ETL
+- sql/07_Logging
+- sql/08_Verification
+
+DOCUMENTATION
+- docs/
+
+DEVELOPMENT HISTORY
+- archive/development_scripts/
